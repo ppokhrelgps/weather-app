@@ -1,5 +1,4 @@
-const apiKey = "YOUR_OPENWEATHERMAP_API_KEY"; // Replace with your key
-
+const apiKey = "81535069ec511cccf5d492ea0fdccbf6";
 function getWeather() {
   const city = document.getElementById("city-input").value.trim();
   if (!city) return alert("Please enter a city name.");
